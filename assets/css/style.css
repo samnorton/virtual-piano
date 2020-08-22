@@ -1,0 +1,125 @@
+body {
+	font-family: 'Poppins', sans-serif;
+	background-color: black;
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	font-weight: 700;
+	font-family: 'Monoton', sans-serif;
+	color: #ffffff;
+	font-size: 6rem;
+	margin-bottom: 0px;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: -1px -1px 1px #111, 2px 2px 1px #363636;
+	letter-spacing: 0.5rem;
+}
+h3 {
+	font-size: 1.3rem;
+	color: #dedede;
+	margin-top: -25px !important;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: -1px -1px 1px #111, 2px 2px 1px #363636;
+	letter-spacing: 0.5rem;
+}
+#title-header {
+	margin-top: 130px;
+}
+.container {
+	min-height: 50vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.piano-container {
+	display: flex;
+	max-width: 80vw;
+	background: #333333;
+	border: 10px solid #333333;
+	padding: 50px 30px 0px 30px;
+	-webkit-border-top-left-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-radius-topleft: 15px;
+	-moz-border-radius-topright: 15px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+.white {
+	width: 10vw;
+	height: 35vh;
+	background-color: white;
+	border-left: 2px solid #333333;
+}
+.black {
+	width: 7vw;
+	height: 22vh;
+	background-color: black;
+	margin-left: -1.5vw;
+	margin-right: -1.5vw;
+	z-index: 1;
+}
+.white.active-keynote {
+	background-color: #f2ffdc;
+	transition: background-color .3s ease-in-out;
+	-webkit-transition: background-color .3s ease-in-out;
+	-moz-transition: background-color .3s ease-in-out;
+	-o-transition: background-color .3s ease-in-out;
+}
+.black.active-keynote {
+	background-color: #373d2d;
+	transition: background-color .3s ease-in-out;
+	-webkit-transition: background-color .3s ease-in-out;
+	-moz-transition: background-color .3s ease-in-out;
+	-o-transition: background-color .3s ease-in-out;
+}
+@media only screen and (min-width: 768px) and (max-width: 1224px) {
+	h1 {
+		font-size: 4rem;
+		margin-bottom: 15px;
+	}
+	#title-header {
+		margin-top: 160px;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	.piano-container {
+		max-width: 72vw;
+		padding: 30px 30px 0px 30px;
+	}
+	.white {
+		width: 10vw;
+		height: 29vh;
+	}
+	.black {
+		width: 7vw;
+		height: 16vh
+	}
+}
+@media only screen and (min-width: 360px) and (max-width: 767px) {
+	h1 {
+		font-size: 3rem;
+		margin-bottom: 20px;
+	}
+	#title-header {
+		margin-top: 160px;
+	}
+	.octave-1, .octave-2 {
+		display: none;
+	}
+	.piano-container {
+		max-width: 70vw;
+	}
+	.white {
+		width: 10vw;
+		height: 35vh;
+	}
+	.black {
+		width: 7vw;
+		height: 22vh;
+		margin-left: -3.4vw;
+		margin-right: -3.4vw;
+		z-index: 1;
+	}
+}
