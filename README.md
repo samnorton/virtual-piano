@@ -8,10 +8,10 @@ A simple virtual piano made with HTML, CSS and JavaScript
 ## Installation
 
 ```
-git clone git@github.com:samnorton/contacthub.git
+git clone git@github.com:samnorton/virtual-piano.git
 
 ```
 
 ## App Preview
 
-Visit https://contacthub.herokuapp.com/ for a preview of the app.
+Visit https://samnorton.github.io/virtual-piano/ for a preview of the app.
