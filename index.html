@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+     <!-- Load custom style -->
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <!-- defer - script that will not run until after the page has loaded: -->
+    <script defer src="../assets/js/script.js"></script>
+    <!-- Load Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+
+	<title>Virtual Piano</title>
+</head>
+
+<body>
+
+<div id="title-header">
+    <h1>Virtual Piano</h1> 
+    <h3>by Sam Norton</h3>    
+</div>
+
+<div class="container">
+    <div class="piano-container">
+        <!-- 1st Octave Keys -->
+        <div data-keynote="Octave1-C" class="octave-1 key white"></div>
+        <div data-keynote="Octave1-C#" class="octave-1 key black"></div>
+        <div data-keynote="Octave1-D" class="octave-1 key white"></div>
+        <div data-keynote="Octave1-D#" class="octave-1 key black"></div>
+        <div data-keynote="Octave1-E" class="octave-1 key white"></div>
+        <div data-keynote="Octave1-F" class="octave-1 key white"></div>
+        <div data-keynote="Octave1-F#" class="octave-1 key black"></div>
+        <div data-keynote="Octave1-G" class="octave-1 key white"></div>
+        <div data-keynote="Octave1-G#" class="octave-1 key black"></div>
+        <div data-keynote="Octave1-A" class="octave-1 key white"></div>
+        <div data-keynote="Octave1-A#" class="octave-1 key black"></div>
+        <div data-keynote="Octave1-B" class="octave-1 key white"></div>
+
+        <!-- 2nd Octave Keys -->
+        <div data-keynote="Octave2-C" class="octave-2 key white"></div>
+        <div data-keynote="Octave2-C#" class="octave-2 key black"></div>
+        <div data-keynote="Octave2-D" class="octave-2 key white"></div>
+        <div data-keynote="Octave2-D#" class="octave-2 key black"></div>
+        <div data-keynote="Octave2-E" class="octave-2 key white"></div>
+        <div data-keynote="Octave2-F" class="octave-2 key white"></div>
+        <div data-keynote="Octave2-F#" class="octave-2 key black"></div>
+        <div data-keynote="Octave2-G" class="octave-2 key white"></div>
+        <div data-keynote="Octave2-G#" class="octave-2 key black"></div>
+        <div data-keynote="Octave2-A" class="octave-2 key white"></div>
+        <div data-keynote="Octave2-A#" class="octave-2 key black"></div>
+        <div data-keynote="Octave2-B" class="octave-2 key white"></div>
+
+        <!-- 3rd Octave Keys -->
+        <div data-keynote="Octave3-C" class="octave-3 key white"></div>
+        <div data-keynote="Octave3-C#" class="octave-3 key black"></div>
+        <div data-keynote="Octave3-D" class="octave-3 key white"></div>
+        <div data-keynote="Octave3-D#" class="octave-3 key black"></div>
+        <div data-keynote="Octave3-E" class="octave-3 key white"></div>
+        <div data-keynote="Octave3-F" class="octave-3 key white"></div>
+        <div data-keynote="Octave3-F#" class="octave-3 key black"></div>
+        <div data-keynote="Octave3-G" class="octave-3 key white"></div>
+        <div data-keynote="Octave3-G#" class="octave-3 key black"></div>
+        <div data-keynote="Octave3-A" class="octave-3 key white"></div>
+        <div data-keynote="Octave3-A#" class="octave-3 key black"></div>
+        <div data-keynote="Octave3-B" class="octave-3 key white"></div>
+    </div>
+
+    <!-- 1st Octave Audio -->
+    <audio id="Octave1-C" src="assets/piano-notes/octave1-C.mp3"></audio>
+    <audio id="Octave1-C#" src="assets/piano-notes/octave1-CSharp.mp3"></audio>
+    <audio id="Octave1-D" src="assets/piano-notes/octave1-D.mp3"></audio>
+    <audio id="Octave1-D#" src="assets/piano-notes/octave1-DSharp.mp3"></audio>
+    <audio id="Octave1-E" src="assets/piano-notes/octave1-E.mp3"></audio>
+    <audio id="Octave1-F" src="assets/piano-notes/octave1-F.mp3"></audio>
+    <audio id="Octave1-F#" src="assets/piano-notes/octave1-FSharp.mp3"></audio>
+    <audio id="Octave1-G" src="assets/piano-notes/octave1-G.mp3"></audio>
+    <audio id="Octave1-G#" src="assets/piano-notes/octave1-GSharp.mp3"></audio>
+    <audio id="Octave1-A" src="assets/piano-notes/octave1-A.mp3"></audio>
+    <audio id="Octave1-A#" src="assets/piano-notes/octave1-ASharp.mp3"></audio>
+    <audio id="Octave1-B" src="assets/piano-notes/octave1-B.mp3"></audio>
+
+    <!-- 2nd Octave Audio -->
+    <audio id="Octave2-C" src="assets/piano-notes/octave2-C.mp3"></audio>
+    <audio id="Octave2-C#" src="assets/piano-notes/octave2-CSharp.mp3"></audio>
+    <audio id="Octave2-D" src="assets/piano-notes/octave2-D.mp3"></audio>
+    <audio id="Octave2-D#" src="assets/piano-notes/octave2-DSharp.mp3"></audio>
+    <audio id="Octave2-E" src="assets/piano-notes/octave2-E.mp3"></audio>
+    <audio id="Octave2-F" src="assets/piano-notes/octave2-F.mp3"></audio>
+    <audio id="Octave2-F#" src="assets/piano-notes/octave2-FSharp.mp3"></audio>
+    <audio id="Octave2-G" src="assets/piano-notes/octave2-G.mp3"></audio>
+    <audio id="Octave2-G#" src="assets/piano-notes/octave2-GSharp.mp3"></audio>
+    <audio id="Octave2-A" src="assets/piano-notes/octave2-A.mp3"></audio>
+    <audio id="Octave2-A#" src="assets/piano-notes/octave2-ASharp.mp3"></audio>
+    <audio id="Octave2-B" src="assets/piano-notes/octave2-B.mp3"></audio>
+
+    <!-- 3rd Octave Audio -->
+    <audio id="Octave3-C" src="assets/piano-notes/octave3-C.mp3"></audio>
+    <audio id="Octave3-C#" src="assets/piano-notes/octave3-CSharp.mp3"></audio>
+    <audio id="Octave3-D" src="assets/piano-notes/octave3-D.mp3"></audio>
+    <audio id="Octave3-D#" src="assets/piano-notes/octave3-DSharp.mp3"></audio>
+    <audio id="Octave3-E" src="assets/piano-notes/octave3-E.mp3"></audio>
+    <audio id="Octave3-F" src="assets/piano-notes/octave3-F.mp3"></audio>
+    <audio id="Octave3-F#" src="assets/piano-notes/octave3-FSharp.mp3"></audio>
+    <audio id="Octave3-G" src="assets/piano-notes/octave3-G.mp3"></audio>
+    <audio id="Octave3-G#" src="assets/piano-notes/octave3-GSharp.mp3"></audio>
+    <audio id="Octave3-A" src="assets/piano-notes/octave3-A.mp3"></audio>
+    <audio id="Octave3-A#" src="assets/piano-notes/octave3-ASharp.mp3"></audio>
+    <audio id="Octave3-B" src="assets/piano-notes/octave3-B.mp3"></audio>
+</body>
+</div>
+</div>
+</html>
